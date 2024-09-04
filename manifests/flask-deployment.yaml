@@ -26,5 +26,5 @@ spec:
             - containerPort: 5000
           env:
             - name: MONGODB_URI
-              value: "mongodb+srv://abhishekporwal836:Saroj%405472@flask-app-buyogo.5yoi7.mongodb.net/?retryWrites=true&w=majority&appName=flask-app-BUYOGO"
+              value: "mongodb+srv://abhishekporwal836:<password>@flask-app-buyogo.5yoi7.mongodb.net/?retryWrites=true&w=majority&appName=flask-app-BUYOGO"
 
