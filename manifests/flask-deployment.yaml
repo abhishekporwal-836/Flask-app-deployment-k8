@@ -14,10 +14,17 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: your-dockerhub-username/flask-app:latest
+          image: abhishekporwal836/flask-app-buyogo:latest
+          resources: #added for resource management
+            requests:
+              memory: "250Mi"
+              cpu: "200m"
+            limits:
+              memory: "500Mi"
+              cpu: "500m"
           ports:
             - containerPort: 5000
           env:
             - name: MONGODB_URI
-              value: "mongodb://mongo:27017/"
+              value: "mongodb+srv://abhishekporwal836:Saroj%405472@flask-app-buyogo.5yoi7.mongodb.net/?retryWrites=true&w=majority&appName=flask-app-BUYOGO"
 

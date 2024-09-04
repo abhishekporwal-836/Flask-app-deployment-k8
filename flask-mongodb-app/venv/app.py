@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-client = MongoClient(os.environ.get("MONGODB_URI", "mongodb+srv://abhishekporwal836:<password>@flask-app-buyogo.5yoi7.mongodb.net/?retryWrites=true&w=majority&appName=flask-app-BUYOGO"))
+client = MongoClient(os.environ.get("MONGODB_URI", "mongodb+srv://abhishekporwal836:Saroj%405472@flask-app-buyogo.5yoi7.mongodb.net/?retryWrites=true&w=majority&appName=flask-app-BUYOGO"))
 
 db = client.flask_db
 
